@@ -657,7 +657,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -1162,7 +1162,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/dolomites.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1284,6 +1284,7 @@ input, select, textarea {
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
+				z-index:-999;
 			}
 
 		#header > :first-child {
@@ -1295,15 +1296,15 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			width: 10rem;
+			height: 10rem;
+			line-height: 10rem;
+			border: solid 0px #ffffff;
 			border-radius: 100%;
 		}
 
 			#header .logo .icon:before {
-				font-size: 2rem;
+				font-size: 0rem;
 			}
 
 		#header .content {
@@ -1340,19 +1341,15 @@ input, select, textarea {
 			}
 
 		#header nav ul {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			margin-bottom: 0;
-			list-style: none;
-			padding-left: 0;
-			border: solid 1px #ffffff;
 			border-radius: 4px;
+			display: flex;
+			list-style: none;
+			margin-bottom: 0;
+			padding-left: 0;
 		}
 
 			#header nav ul li {
-				padding-left: 0;
+				padding-left: 0px;
 				border-left: solid 1px #ffffff;
 			}
 
@@ -1365,11 +1362,11 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					padding-left: 0;
 				}
 
 					#header nav ul li a:hover {
@@ -1445,13 +1442,13 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: 10rem;
+				height: 10rem;
+				line-height: 10rem;
 			}
 
 				#header .logo .icon:before {
-					font-size: 1.75rem;
+					font-size: rem;
 				}
 
 			#header .content .inner {
@@ -1490,6 +1487,7 @@ input, select, textarea {
 
 						#header nav ul li:first-child {
 							border-top: 0;
+							border-left: 0;
 						}
 
 						#header nav ul li a {
@@ -1662,4 +1660,31 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+
+		.image.avatar {
+			border-radius: 100%;
+		}
+		.image.avatar img {
+			border-radius: 100%;
+			width: 100%;
+		}
+
+		ul.menu{
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			margin-bottom: 20rem;
+			padding-left: 0;
+			margin-left: 0;
+			border: solid 1px #ffffff;
+			margin-block-end: 0em;
+			margin-block-start: 0em;
+			font: inherit;
+			padding-inline-start: 0px;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			font-size: 0.8rem;
 		}
