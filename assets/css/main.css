@@ -199,11 +199,11 @@ input, select, textarea {
 		}
 
 	h3.work {
-		line-height: 0;
-		margin-bottom: 5px;
+		margin-bottom: 0px;
 	}
 
 	p.workdate {
+		margin-top: 0px;
 		margin-bottom: 5px;
 	}
 
