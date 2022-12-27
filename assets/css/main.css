@@ -198,8 +198,13 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
-	h3.titlelink:hover {
-		text-decoration: underline;
+	h3.work {
+		line-height: 0;
+		margin-bottom: 5px;
+	}
+
+	p.workdate {
+		margin-bottom: 5px;
 	}
 
 	h1 {
@@ -1687,4 +1692,9 @@ input, select, textarea {
 			text-transform: uppercase;
 			letter-spacing: 0.2rem;
 			font-size: 0.8rem;
+		}
+		div.blog:hover {
+			background-color: rgba(40, 47, 52, 0.85);
+			border-radius: 4px;
+			padding-left: 4px;
 		}
