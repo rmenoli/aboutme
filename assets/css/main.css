@@ -674,7 +674,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
+			display: block
 		}
 
 			.image.left img, .image.right img {
@@ -1698,4 +1699,8 @@ input, select, textarea {
 			border-radius: 4px;
 			padding-left: 4px;
 			display: block;
+		}
+
+		div.right_blog{
+			margin-left: 20%;
 		}
