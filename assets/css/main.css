@@ -1703,4 +1703,5 @@ input, select, textarea {
 
 		div.right_blog{
 			margin-left: 20%;
+			display: block;
 		}
