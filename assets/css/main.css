@@ -1694,6 +1694,7 @@ input, select, textarea {
 			letter-spacing: 0.2rem;
 			font-size: 0.8rem;
 		}
+
 		div.blog:hover {
 			background-color: rgba(255, 255, 255, 0.075);
 			border-radius: 4px;
